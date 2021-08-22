@@ -1,0 +1,1 @@
+Data have been acquired with 3 ALPIDE Chips (1024 x 512 Pixels) which have been placed in the beam line of a clinical heavy ion generator. This heavy ion generator will normally be used to treat cancer patients with a severe tumor in the brain. Read the CSV data in a pandas DataFrame and try to understand what the different columns mean. Can you apply histograms and other plots?
