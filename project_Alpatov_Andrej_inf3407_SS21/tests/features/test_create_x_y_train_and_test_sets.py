@@ -6,9 +6,9 @@ import create_x_y_train_and_test_sets
 
 class TestCreateXYTrainAndTestSets(object):
 
-    DF_TEST = pd.DataFrame({'name': ['Earth', 'Moon', 'Mars', 'Mars', 'Moon', 'Moon'],
-                            'mass_to_earth': [1, 0.606, 0.107, 0.107, 0.606, 0.606],
-                            'extra': [5, 8, 7, 3, 4, 2]})
+    DF_TEST = pd.DataFrame({'name': ['Earth', 'Moon', 'Mars', 'Mars', 'Moon', 'Moon', 'Mars'],
+                            'mass_to_earth': [1, 0.606, 0.107, 0.107, 0.606, 0.606, 0.107],
+                            'extra': [5, 8, 7, 3, 4, 2, 6]})
 
     def test_create_x_y_train_and_test_sets(self, df = DF_TEST, target = 'mass_to_earth', predict=['extra'],
                                             test_size=0.5, random_state=42):
